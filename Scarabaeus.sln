@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScarabaeusTests", "ScarabaeusTests\ScarabaeusTests.csproj", "{E33AF480-4C4E-49E9-927F-B6C26DBA17FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{49974BA7-DC26-4388-B099-828BBD66F71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E33AF480-4C4E-49E9-927F-B6C26DBA17FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E33AF480-4C4E-49E9-927F-B6C26DBA17FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E33AF480-4C4E-49E9-927F-B6C26DBA17FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49974BA7-DC26-4388-B099-828BBD66F71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49974BA7-DC26-4388-B099-828BBD66F71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49974BA7-DC26-4388-B099-828BBD66F71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49974BA7-DC26-4388-B099-828BBD66F71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

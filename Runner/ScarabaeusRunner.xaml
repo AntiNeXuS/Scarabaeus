@@ -1,0 +1,58 @@
+﻿<Window x:Class="Runner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Scarabaeus Runner" Height="350" Width="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Slider Name="Coha0" Margin="5,5,5,5" Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true"  Value="90" ValueChanged="Leg0_OnValueChanged"/>
+        <CheckBox Name="Coha0Invert" Margin="5,5,5,5" Grid.Column="1">Invert</CheckBox>
+
+        <Slider Name="Coha1" Margin="5,5,5,5" Grid.Row="1"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg1_OnValueChanged"/>
+        <CheckBox Name="Coha1Invert" Margin="5,5,5,5" Grid.Row="1" Grid.Column="1">Invert</CheckBox>
+
+        <Slider Name="Coha2" Margin="5,5,5,5" Grid.Row="2"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg2_OnValueChanged"/>
+        <CheckBox Name="Coha2Invert" Margin="5,5,5,5" Grid.Row="2" Grid.Column="1">Invert</CheckBox>
+
+        <Slider Name="Coha3" Margin="5,5,5,5" Grid.Row="3"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg3_OnValueChanged"/>
+        <CheckBox Name="Coha3Invert" Margin="5,5,5,5" Grid.Row="3" Grid.Column="1">Invert</CheckBox>
+
+        <Slider Name="Femur0" Margin="5,5,5,5" Grid.Column="2"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg0_OnValueChanged"/>
+        <CheckBox Name="Femur0Invert" Margin="5,5,5,5" Grid.Column="3">Invert</CheckBox>
+
+        <Slider Name="Femur1" Margin="5,5,5,5" Grid.Row="1" Grid.Column="2"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg1_OnValueChanged"/>
+        <CheckBox Name="Femur1Invert" Margin="5,5,5,5" Grid.Row="1" Grid.Column="3">Invert</CheckBox>
+
+        <Slider Name="Femur2" Margin="5,5,5,5" Grid.Row="2" Grid.Column="2"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg2_OnValueChanged"/>
+        <CheckBox Name="Femur2Invert" Margin="5,5,5,5" Grid.Row="2" Grid.Column="3">Invert</CheckBox>
+
+        <Slider Name="Femur3" Margin="5,5,5,5" Grid.Row="3" Grid.Column="2"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg3_OnValueChanged"/>
+        <CheckBox Name="Femur3Invert" Margin="5,5,5,5" Grid.Row="3" Grid.Column="3">Invert</CheckBox>
+
+        <Slider Name="Tibia0" Margin="5,5,5,5" Grid.Column="4"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg0_OnValueChanged"/>
+        <CheckBox Name="Tibia0Invert" Margin="5,5,5,5" Grid.Column="5">Invert</CheckBox>
+
+        <Slider Name="Tibia1" Margin="5,5,5,5" Grid.Row="1" Grid.Column="4"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg1_OnValueChanged"/>
+        <CheckBox Name="Tibia1Invert" Margin="5,5,5,5" Grid.Row="1" Grid.Column="5">Invert</CheckBox>
+
+        <Slider Name="Tibia2" Margin="5,5,5,5" Grid.Row="2" Grid.Column="4"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg2_OnValueChanged"/>
+        <CheckBox Name="Tibia2Invert" Margin="5,5,5,5" Grid.Row="2" Grid.Column="5">Invert</CheckBox>
+
+        <Slider Name="Tibia3" Margin="5,5,5,5" Grid.Row="3" Grid.Column="4"  Minimum="0" Maximum="180" TickFrequency="10" IsSnapToTickEnabled="true" Value="90" ValueChanged="Leg3_OnValueChanged"/>
+        <CheckBox Name="Tibia3Invert" Margin="5,5,5,5" Grid.Row="3" Grid.Column="5">Invert</CheckBox>
+    </Grid>
+</Window>
